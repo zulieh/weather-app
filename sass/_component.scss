@@ -1,0 +1,126 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_input {
+        font-family: inherit;
+        font-size: inherit;
+        border:none;
+        border-radius: 40px;
+        width: 90%;
+        
+
+
+    }
+
+    &_icon {
+        height: 2rem ;
+        width: 2rem;
+        
+
+    }
+
+    &_button {
+        border:none;
+
+    }
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+
+
+
+    &_name {
+        color: #fff;
+        padding-bottom: .2rem;
+
+    }
+
+    &_state {
+
+        text-transform: uppercase;
+        // display: flex;
+        // align-items: center;
+
+    }
+}
+
+.whether {
+        
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-top: 6rem;
+    
+    
+
+    &_content {
+        position: relative;
+    }
+
+    &_icon-single {  
+        position: absolute;
+        top: -8px;
+        left: 48px;
+    }
+        
+
+    &_degree {
+        color: #ffc0cb;
+        font-size: xxx-large;  
+    }
+
+    &_icon {
+        width: 1rem;
+        height: 2rem;
+
+    }
+
+    &_condition {
+        color: #fff;
+        padding-top: 4rem;
+
+    }
+
+    &_date {
+        color:#eee;
+        padding-bottom: 2.5rem;
+        border-bottom: 1px solid #000;
+
+    }
+}
+
+
+.climate {
+    
+    &_icon-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    padding-top: 2rem;
+
+    }
+
+    &_week {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+    &_icon {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+
+        
+ 

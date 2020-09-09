@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 20rem;
+  margin: 8rem auto;
+  background-color: #7e7e7e;
+  border-radius: 12px;
+  padding: 1rem;
+  height: 30rem; }
+
+.header {
+  display: flex;
+  justify-content: center; }
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .search_input {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    border-radius: 40px;
+    width: 90%; }
+  .search_icon {
+    height: 2rem;
+    width: 2rem; }
+  .search_button {
+    border: none; }
+
+.country {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem; }
+  .country_name {
+    color: #fff;
+    padding-bottom: .2rem; }
+  .country_state {
+    text-transform: uppercase; }
+
+.whether {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  padding-top: 6rem; }
+  .whether_content {
+    position: relative; }
+  .whether_icon-single {
+    position: absolute;
+    top: -8px;
+    left: 48px; }
+  .whether_degree {
+    color: #ffc0cb;
+    font-size: xxx-large; }
+  .whether_icon {
+    width: 1rem;
+    height: 2rem; }
+  .whether_condition {
+    color: #fff;
+    padding-top: 4rem; }
+  .whether_date {
+    color: #eee;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #000; }
+
+.climate_icon-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 2rem; }
+
+.climate_week {
+  display: flex;
+  flex-direction: column; }
+
+.climate_icon {
+  width: 2rem;
+  height: 2rem; }
